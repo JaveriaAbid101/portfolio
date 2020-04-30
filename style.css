@@ -7,11 +7,7 @@
 }
 
 
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1136px) {
-    body {
-      background: #ccc;
-    }
-  }
+
 .main_container{
     widows: 100px;;
     height:100%;
@@ -51,16 +47,7 @@ nav ul li a{
 a.active,a.hover{
     transition: .5s;
 } 
-@media(max-width:400px){
-    #logo{
-       padding-left: 30px;
-    }
-    nav ul li a{
-      width: 20px;
-      float: left;
-        
-    }
-}
+
 
 /* second banner */
 
@@ -79,33 +66,75 @@ a.active,a.hover{
     position: relative;
     margin: 0px auto;
     color: white;
-    margin-right: 650px;
+    margin-right: 500px;
     width: 400px;
      top: 60px;
 }
-
+#text-block h3{
+    font-family: Big Caslon;
+    font-size: 40px;
+    padding: 20px 20px;
+    text-align: center;
+}
+#text-block p{
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 15px;
+}
 
 /* third banner */
 
 .content{
     width: 100%;
-    
     background-color:#66CCC6 ;
     color: white;
     text-decoration: none;
 }
+.mystyle{
+    max-width: 1366px;
+    box-sizing: border-box;
+    padding: 15px 85px;
+    margin: 0px auto;
+}
+.mystyle div{
+     display: inline-block;
+    padding: 5px 0px;
+}
+.mystyle div .col1{
+    margin: 10px auto;
+    padding: 30px 0px; display: 
+    inline-block; color: white;
 
+}
+.mystyle div .col2{
+    width: 200px;display: 
+    inline-block; color: white;
+    padding: 10px 15px;
 
+}
+.mystyle div .col2 h4{
+    font-size: 20px;
+}
+.mystyle div .col2 p{
+    margin-top: 7px; 
+    font-size: 15px;
+}
  /* fourth banner */
 
  #banner2{
     background-repeat: no-repeat;
-    /* background-size: cover; */
     position: relative;
     font-family: Arial;
     background-image: url(main.png);
     height: 450px;
     background-color:  #F5F5F5;
+}
+.content2{
+    max-width: 1366px;
+    margin: 0px auto;
 }
 #text-block2{
     float: right;
@@ -114,13 +143,25 @@ a.active,a.hover{
     padding: 10px 83px;
     margin-right: 50px
 }
-@media all and (max-width: 400px) and (min-width: 520px), (min-width: 1136px) {
-    #text-block2 {
-        padding: 0px  10px;
-       width: 50px;
-        
-    }
-  }
+#text-block2 h3{
+    text-align: rightalign;
+    margin: 35px;
+    font-size: 30px;
+}
+#text-block2 p{
+   width: 420px;
+   color:#90918C;
+   text-align: rightalign;
+   margin: 35px;
+   font-size: 15px;
+   line-height: 25px;
+   margin-bottom: 10px; 
+   margin-top: 10px;
+}
+#text-block2 img{
+    width: 250px;
+    margin-left: 30px;
+}
 
 /* fifth banner */
 
@@ -138,19 +179,38 @@ a.active,a.hover{
     max-width: 1366px;
     margin: 0px auto;
     text-align: center;
-    /* float: right; */
     width: 500px;
     margin-top: 50px;
     }
+ #text-block3 h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    margin: 10px 100px
+  }  
+  #text-block3 p{
+    width: 420px;
+    text-align: center;
+    margin: 35px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#90918C;
+  }
+  #text-block3 input {
+    padding: 20px;
+    color: white;
+    background-color: #64CBC6;
+    border: none;
+    outline: none;
+  }
 #btn{
    
     padding: 20px ;
 }
 
- 
-
-/* 
-sixth banner */
+/* sixth banner */ 
 
 .footer{
    
@@ -159,11 +219,110 @@ sixth banner */
     border: solid black;
     padding: 90px 0px;
 }
-
-.column{
-
-    width: 250px;
-    margin-left: 80px;
-   display: inline-block;
-    color: white;
+.styling{
+    max-width: 1366px;
+    box-sizing: border-box;
+    padding: 5px 100px;
+    margin: 10px auto;
 }
+.styling .column1 {
+    width: 280px; 
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.styling .column1 .p1{
+    margin: 10px auto;  
+    margin-left: auto;
+}
+.styling .column2{
+    width: 250px; 
+    color: white; 
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.styling .column1 .p2{
+    margin-bottom: 9px;
+}
+.styling .column3{
+    width: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+
+}
+.styling .column4{
+    width: 100px; 
+    font-size: 20px; 
+    line-height: 30px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.styling .column5{
+    line-height: 30px; 
+    font-size: 20px;
+    width: 100px; 
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+
+
+/* media queries of #banner */
+@media (max-width:480px){
+    #text-block {
+        padding: 10px 40px;
+         }
+         #text-block p {
+            font-size: 20px;
+        }
+}
+/* finish */
+
+
+
+/* media queries of #banner2 */
+@media (max-width:480px){
+    #text-block2 {
+        background-color: #F5F5F5;
+        margin-top: 45px;
+        margin: 50px;
+        padding: 10px;
+        position: relative;
+        top: -25px;
+    }
+    #text-block2 p {
+        width: 300px;
+    }
+}
+
+
+/* finish */
+
+
+/* media queries of #banner3 */
+@media (max-width:480px){
+    #text-block3{
+    padding: 40px 0px;
+    margin: 0px auto;
+    text-align: center;
+    width: 400px;
+    margin-top: 50px;
+}
+#text-block3 h3{
+     margin: 10px 20px
+  } 
+  #text-block3 p{
+    width: 400px;
+    margin: 0px auto;
+  } 
+}
+/* finish */
+
+
+
